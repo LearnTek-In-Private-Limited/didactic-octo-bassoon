@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "learntekin-admin",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
