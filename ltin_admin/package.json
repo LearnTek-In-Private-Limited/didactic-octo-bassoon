@@ -39,12 +39,11 @@
     "uuid": "^8.3.1",
     "web-vitals": "^2.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "start": "react-scripts start --openssl-legacy-provider",
+  "build": "react-scripts build --openssl-legacy-provider"
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
